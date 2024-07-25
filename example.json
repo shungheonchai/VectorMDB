@@ -1,0 +1,237 @@
+{
+  "_id": 1144608595,
+  "instrumentId": 6833980,
+  "portfolioId": 20331988,
+  "firmId": 4000168,
+  "localCurr": "USD",
+  "processingOrgId": 80000,
+  "subfirmId": 4000177,
+  "custodianId": 500131,
+  "custodianAccountEntityId": 2204805,
+  "positionType": 2,
+  "custodianAccountNum": "11102-C",
+  "transactionType": 1,
+  "tradeDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "transactionDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "statementDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "settlementDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "netTransactionAmt": -500,
+  "netChargesAmt": 0,
+  "netAccruedInterestAmt": 0,
+  "netTaxesAmt": 0,
+  "transactionQty": 500,
+  "netTransactionAmtBase": -500,
+  "transactionPrice": 1,
+  "dmLstupddt": {
+    "$date": "2024-04-04T13:26:02.948Z"
+  },
+  "firstIniBusProcRef": 557965520,
+  "firstIniBusProcType": 3,
+  "secondIniBusProcRef": 1097999799,
+  "secondIniBusProcType": 9,
+  "thirdIniBusProcType": 11,
+  "fourthIniBusProcRef": 1097999798,
+  "fourthIniBusProcType": 13,
+  "reversedTransactionFlag": 2,
+  "suppressInd": 1,
+  "dummyTransactionFlag": 2,
+  "fxOrderProcessing": 1,
+  "relatedFxInd": 3,
+  "reversalFlg": 2,
+  "pcsFxGenReqFlag": 2,
+  "pcsCurr": "USD",
+  "auditUserid": 122,
+  "transactionVer": 1,
+  "netMifidCharge": 0,
+  "baseCurr": "USD",
+  "poskId": 500131,
+  "accountId": 20276165,
+  "actualSettlementDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "streetStlmntProcessingDt": {
+    "$date": "2024-04-04T04:00:00.000Z"
+  },
+  "pricingCurr": "USD",
+  "netTransactionAmtPricing": -500,
+  "descriptionCodeId": 20001,
+  "transactionGrossAmt": -500,
+  "reportingGrossAmt": -500,
+  "reportingNetAmt": -500,
+  "transactionGrossAmtBase": -500,
+  "reportingGrossAmtBase": -500,
+  "reportingNetAmtBase": -500,
+  "accountName": "Acct-Name-2276",
+  "accountNumber": "1001229",
+  "portfolioName": "Portfolio-3 (Capital)",
+  "accountStatus": "Open",
+  "instrumentLongName": "CVS Health Corp",
+  "firstPreferredIdentifier": "126650100",
+  "firstPreferredIdentifierSchemeId": "1",
+  "firstPreferredIdentifierScheme": "CUSIP",
+  "secondPreferredIdentifier": "CVS",
+  "secondPreferredIdentifierSchemeId": "2",
+  "secondPreferredIdentifierScheme": "TICKER",
+  "custodianName": "Depository Trust Company (DTCC)",
+  "poskName": "Depository Trust Company (DTCC)",
+  "positionTypeDesc": "Normal",
+  "transactionTypeDesc": "Buy",
+  "supressIndicatorDesc": "No",
+  "fxOrderProcessingDesc": "Implicit",
+  "relatedFxIndDesc": "FX not applicable",
+  "firstIniBusProcTypeDesc": "Portfolio Order ID",
+  "secondIniBusProcTypeDesc": "Order Activity ID",
+  "thirdIniBusProcTypeDesc": "Parent Activity ID",
+  "fourthIniBusProcTypeDesc": "Trade Activity ID",
+  "suppressIndDesc": "No",
+  "txnOrNote": 2,
+  "txnOrNoteDesc": "No",
+  "processingOrgName": "Advisor Market",
+  "movedOn": {
+    "$date": "2024-04-04T13:26:12.872Z"
+  },
+  "liabilityInstrumentFlag": 2,
+  "transactionExt": {
+    "acquisitionMethod": 6,
+    "submittedBy": 22097288,
+    "transactionDescription": "Purchase 500 Shares of CVS Health Corp @ 1 USD",
+    "submittedOn": {
+      "$date": "2024-04-04T13:25:59.000Z"
+    },
+    "acqDtUnknownFlag": 2,
+    "tradeCapacity": 2,
+    "tradeCapacityDesc": "LIFO",
+    "recalculateRmdFlag": 2,
+    "orderType": 1,
+    "orderTypeDesc": "Market Order",
+    "stockExchangeId": 400151,
+    "executingBrokerId": 5007430,
+    "stockExchangeName": "New York Stock Exchange"
+  },
+  "transactionDetails": [
+    {
+      "transactionDetailId": {
+        "$numberLong": "2157585831"
+      },
+      "componentType": 1,
+      "poskId": 1,
+      "localCurr": "USD",
+      "portfolioId": 20331988,
+      "custodianId": 1,
+      "custodianAccountEntityId": 1,
+      "custodianAccountNum": "1",
+      "positionType": 2,
+      "treatmentCode": 4001,
+      "transactionAmt": -500,
+      "transactionAmtBase": -500,
+      "transactionDetailVer": 1,
+      "auditUserid": 122,
+      "dmLstupddt": {
+        "$date": "2024-04-04T13:26:02.966Z"
+      },
+      "instrumentId": 1571736,
+      "transactionDt": {
+        "$date": "2024-04-04T04:00:00.000Z"
+      },
+      "firmId": 4000177,
+      "processingOrgId": 80000,
+      "subfirmId": 4000177
+    },
+    {
+      "transactionDetailId": {
+        "$numberLong": "2157585830"
+      },
+      "componentType": 2,
+      "poskId": 500131,
+      "localCurr": "USD",
+      "portfolioId": 20331988,
+      "custodianId": 500131,
+      "custodianAccountEntityId": 2204805,
+      "custodianAccountNum": "11102-C",
+      "positionType": 2,
+      "treatmentCode": 4001,
+      "transactionQty": 500,
+      "transactionDetailVer": 1,
+      "auditUserid": 122,
+      "dmLstupddt": {
+        "$date": "2024-04-04T13:26:02.966Z"
+      },
+      "instrumentId": 6833980,
+      "transactionDt": {
+        "$date": "2024-04-04T04:00:00.000Z"
+      },
+      "firmId": 4000177,
+      "processingOrgId": 80000,
+      "subfirmId": 4000177
+    }
+  ],
+  "transactionRelationships": [],
+  "transactionCosts": [
+    {
+      "portfolioId": 20331988,
+      "instrumentId": 1571736,
+      "custodianId": 1,
+      "custodianAccountEntityId": 1,
+      "poskId": 1,
+      "positionType": 2,
+      "positionTypeDesc": "Normal",
+      "localCurr": "USD",
+      "baseCurr": "USD",
+      "dmLstupddt": {
+        "$date": "2024-04-04T13:26:03.412Z"
+      },
+      "auditUserid": 122,
+      "transactionCostVer": 1,
+      "instrumentIsCurrencyFlag": 1,
+      "transactionDt": {
+        "$date": "2024-04-04T04:00:00.000Z"
+      }
+    },
+    {
+      "portfolioId": 20331988,
+      "instrumentId": 6833980,
+      "custodianId": 500131,
+      "custodianAccountEntityId": 2204805,
+      "poskId": 500131,
+      "positionType": 2,
+      "positionTypeDesc": "Normal",
+      "invCostLocal": 500,
+      "invCostBase": 500,
+      "nationalCostLocal": 500,
+      "nationalCostBase": 500,
+      "localCurr": "USD",
+      "baseCurr": "USD",
+      "regionalCostLocal": 500,
+      "regionalCostBase": 500,
+      "dmLstupddt": {
+        "$date": "2024-04-04T13:26:03.412Z"
+      },
+      "auditUserid": 122,
+      "transactionCostVer": 1,
+      "instrumentIsCurrencyFlag": 2,
+      "origCostLocal": 500,
+      "origCostBase": 500,
+      "transactionDt": {
+        "$date": "2024-04-04T04:00:00.000Z"
+      }
+    }
+  ],
+  "accountOwners": [
+    {
+      "ownerId": 2698305,
+      "ownershipType": 1,
+      "ownershipDescription": "Primary Owner"
+    }
+  ],
+  "descriptionCodeName": "Buy",
+  "_class": "com.seic.transactions.common.documents.TransactionDocument",
+  "transactionId": 1144608595
+}
