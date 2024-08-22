@@ -64,6 +64,9 @@ async function findSimilarDocuments(embedding) {
                     "score": { "$meta": "vectorSearchScore" }
                 }
             },
+            {
+                "$sort":{"score":-1}
+            }
             
         ]).toArray();
 
@@ -79,11 +82,9 @@ async function main() {
     try {
         const embedding = await getEmbedding(query);
         console.log("Embedding of \""+query+"\"");
-        // console.dir(embedding,{'maxArrayLength': null});
         console.log(embedding);
         console.log("\n\n\n\n\n\n");
         const documents = await findSimilarDocuments(embedding);
-
         console.log(documents);
     } catch (err) {
         console.error(err);
