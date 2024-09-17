@@ -2,7 +2,7 @@
 This code is a modified demo from a [MongoDB Atlas tutorial](https://www.mongodb.com/developer/products/atlas/semantic-search-mongodb-atlas-vector-search/). This is using the existing `sample_mflix.embedded_movies` namespace thus significantly reducing the time to setup.
 
 ## Prerequisites
-All you need are nodeJS, access to a MongoDB cluster with the sample data loaded, and an OpenAI API key.
+All you need are nodeJS, access to a MongoDB cluster with the sample data loaded (if you haven't, follow [this instruction](https://www.mongodb.com/docs/guides/atlas/sample-data/) which should take you less than 5 min), and an OpenAI API key.
 If you are using a newer version of MacBook Pro's it should come installed with nodeJS but if it didn't use the below code snippets.
 
 ```
@@ -60,3 +60,17 @@ Embedding of "a boy with a wizard hat"
   },
   ...
 ```
+
+## Troubleshoot
+Common reasons that this might not work for you could be the following
+- Have you checked the [Network Access](https://www.mongodb.com/docs/atlas/security/ip-access-list/) for your IP address to be whitelisted?
+- Did you fill out the .env file?
+- Have you checked if your Open AI key is valid and available?
+- Have you checked if your MongoDB Atlas is not paused
+- Have you checked the connection string and also the validity of your database username?
+- Have you loaded the sample dataset and also existence of the *sample_mflix.embedded_movies* namespace?
+
+Lower probability. In these scenarios contact Shawn Chai, creator of this repo, to fix.
+- OpenAI API formatting changed
+- MongoDB's namespace changed
+- Connection string format was changed from MongoDB
